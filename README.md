@@ -64,5 +64,5 @@ pip install -r requirements.txt
 ### 6. Ejecutar el proyecto
 
 ```bash
-python app.py
+python main.py
 ```
