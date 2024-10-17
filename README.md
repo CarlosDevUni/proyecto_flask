@@ -66,3 +66,21 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+
+## Estructura del Proyecto
+
+```
+├── api/
+│   ├── __init__.py
+│   ├── db/
+│       └── test_db.py
+├── main.py
+├── .venv/
+├── requirements.txt
+└── README.md
+```
+
+- `api/`: Carpeta principal del código fuente de la aplicación.
+- `main.py`: Archivo de inicio de la aplicación
+- `requirements.txt`: Archivo que contiene las dependencias del proyecto.
+- `.venv/`: Entorno virtual (esta carpeta está en `.gitignore` y no debe ser incluida en el repositorio).
